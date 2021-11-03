@@ -39,11 +39,11 @@ li {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link:hover {
-  color: #2196f3;
-}
 .link:focus {
-  background: #ffffff;
+  color: #2196f3;
+  outline: none;
+}
+.link:hover {
   color: #2196f3;
 }
 
@@ -64,6 +64,7 @@ li {
   color: #ffffff;
 }
 .baner-btn {
+  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -114,12 +115,9 @@ footer {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-link:focus {
-  background-color: #2f303a;
-}
-
 /* Portfolio */
 .filter-btn {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -127,11 +125,16 @@ footer {
   color: #212121;
   background: #f5f4fa;
 }
-.filter-btn:hover,
-:focus {
+.filter-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+  outline: none;
+}
+.filter-btn:hover {
   background: #2196f3;
   color: #ffffff;
 }
+
 .worklist-title {
   font-weight: bold;
   font-size: 18px;
