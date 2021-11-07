@@ -68,6 +68,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 .header-contact {
   font-weight: 500;
   font-size: 14px;
