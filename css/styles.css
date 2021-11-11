@@ -79,7 +79,6 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
